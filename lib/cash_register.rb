@@ -14,6 +14,9 @@ end
 #  @total
 #end
 
-def add_item
+def add_item(items, price)
+  @items = items
+  
+  
 end
 end
