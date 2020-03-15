@@ -37,4 +37,4 @@ def void_last_transaction
   @total -= @last_trasaction_amount
 end
 
-end
+end 
