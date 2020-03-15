@@ -16,10 +16,8 @@ end
 
 def add_item(items, price, quantity=1)
   @total += price * quantity
-  
-  @items << items
-
-@total
+  quantity.times {@items << items}
+  @total
 end
   
 def apply_discount(item, price)
