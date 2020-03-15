@@ -15,8 +15,9 @@ end
 #end
 
 def add_item(items, price, quantity)
+  @total += items && price * quantity
   @total
-  @items = items
+end
   
   
 end
