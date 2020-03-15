@@ -9,4 +9,10 @@ def initialize(discount=0)
   @discount = discount
   @items = items
 end
+
+def total
+  @total = total
+end
+
+def add_item
 end
