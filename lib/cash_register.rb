@@ -21,7 +21,8 @@ def add_item(items, price, quantity=1)
 end
   
 def apply_discount(item, price)
-  @total = total 
+  if discount != 0 
+    self.total =(total * )
   
 end
 end
