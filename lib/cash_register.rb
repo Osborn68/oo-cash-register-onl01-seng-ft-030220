@@ -28,7 +28,7 @@ def apply_discount
     "There is no discount to apply."
   end
   
-  def item
+  def items
     @items
   end
   
