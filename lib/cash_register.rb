@@ -19,5 +19,6 @@ def add_item(items, price, quantity=1)
   @total
 end
   
+def apply_discount  
   
 end
