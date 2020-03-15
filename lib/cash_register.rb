@@ -6,3 +6,4 @@ class CashRegister
 def initialize(total, discount)
   @total = total
 end
+end
