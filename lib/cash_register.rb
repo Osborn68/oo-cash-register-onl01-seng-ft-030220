@@ -20,7 +20,7 @@ def add_item(items, price, quantity=1)
   @total
 end
   
-def apply_discount(item, price)
+def apply_discount
   if discount != 0 
     self.total =(total * ((100.0 - discount.to_f)/100)).to_i 
     "After the discount, the total comes to $#{self.total}."
