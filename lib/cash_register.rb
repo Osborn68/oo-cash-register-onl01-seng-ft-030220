@@ -1,4 +1,7 @@
 require 'pry'
 class CashRegister
   
-def initialize()
+  attr_accessor :total
+  
+def initialize(total, discount)
+  @total = total
